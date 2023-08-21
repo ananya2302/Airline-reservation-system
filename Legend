@@ -1,0 +1,33 @@
+l_destination    character array that stores local destinations in india
+1_destination : character array storing international destinations. 
+getdata() [under class mytime]   : function used to get input of time slot chosen by user
+show()  [under class mytime] :  function to display the time slot chosen by user
+firstname :   stores the first name of the user
+lastname:   stores the last name of user
+address:   stores address of user
+c_loc:  stores current destination of user
+dest: stores end destination of user
+reservation_no : stores number of seats reserved for user
+t: stores ticket number
+r : stores reference number
+getdata() [under class passenger] : stores all required information from user
+  show()  [under class mytime] :  function to display the information of user
+searching() : to display the flights available and the destination connected
+i,j : used for iterations   
+  getdata() [under class local]   : function used to get input of airline chosen by user
+option: stores the airline selected by user  
+b_seat: stores number seats reserved by user in business class (local)
+e_seat stores number seats reserved by user in economy class(local)
+ch: stores the class (economy/business) chosen by user
+k,p : variable to check availability of flights locally
+t1 : object of class mytime 
+b1_seat:stores number seats reserved by user in business class (intl)
+e1_seat stores number seats reserved by user in economy class(intl)
+b,v : variable to check availability of flights - interantional
+menu_choice: stores selection made by user from main menu displayed
+p1: passenger pointer 
+back : goes back to menu screen
+s1 : object to search flights
+m1: object of class main1
+l1: arbitrary local flight
+i1: arbitrary international flight
