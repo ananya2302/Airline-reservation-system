@@ -16,7 +16,7 @@ protected:
 public:
  void getdata()
  {
-  cout<<"ON WHICH TIME YOU WANT TO TRAVEL"<<endl;
+  cout<<"YOUR PREFERRED TIME FOR TRAVEL"<<endl;
   cout<<"PRESS 1 FOR 11 AM"<<endl;
   cout<<"PRESS 2 FOR 10 AM"<<endl;
   cout<<"PRESS 3 FOR 9 AM"<<endl;
